@@ -43,9 +43,16 @@ namespace Assignmnet2
             #endregion
 
             #region Q6
+            //string title = "Clean Code";
+            //int page = 464;
+            //Console.WriteLine($"Book:{title} , Page:{page}");
+            #endregion
+
+            #region Q7
             string title = "Clean Code";
             int page = 464;
-            Console.WriteLine($"Book:{title} , Page:{page}");
+            string mas = string.Format("Book:{0} , Page:{1}",title,page);
+            Console.WriteLine(mas);
             #endregion
 
 
