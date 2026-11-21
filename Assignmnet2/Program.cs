@@ -14,6 +14,12 @@ namespace Assignmnet2
             //Console.WriteLine(title);
             #endregion
 
+            #region Q2
+            string title1 = "Clean Code", title2 = "Clean Code";
+            Console.WriteLine(ReferenceEquals(title1, title2));
+
+            #endregion
+
 
         }
     }
