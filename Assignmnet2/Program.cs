@@ -56,9 +56,16 @@ namespace Assignmnet2
             #endregion
 
             #region Q8
+            //int page = 464;
+            //if (page > 300) Console.WriteLine("Long Book");
+            //else Console.WriteLine("Short Book");
+            #endregion
+
+            #region Q9
             int page = 464;
-            if (page > 300) Console.WriteLine("Long Book");
-            else Console.WriteLine("Short Book");
+            bool isAvailable = true;
+            if (page > 300&&isAvailable==true) Console.WriteLine("You can borrow this book");
+            else Console.WriteLine("Not Available!");
             #endregion
 
 
