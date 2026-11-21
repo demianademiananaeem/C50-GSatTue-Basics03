@@ -49,10 +49,16 @@ namespace Assignmnet2
             #endregion
 
             #region Q7
-            string title = "Clean Code";
+            //string title = "Clean Code";
+            //int page = 464;
+            //string mas = string.Format("Book:{0} , Page:{1}",title,page);
+            //Console.WriteLine(mas);
+            #endregion
+
+            #region Q8
             int page = 464;
-            string mas = string.Format("Book:{0} , Page:{1}",title,page);
-            Console.WriteLine(mas);
+            if (page > 300) Console.WriteLine("Long Book");
+            else Console.WriteLine("Short Book");
             #endregion
 
 
