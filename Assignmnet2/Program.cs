@@ -117,9 +117,19 @@ namespace Assignmnet2
             #endregion
 
             #region Q15
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //foreach (string book in books)
+            //{
+            //    Console.WriteLine(book);
+            //}
+            #endregion
+
+            #region Q16
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             foreach (string book in books)
             {
+                if (book == "Refactoring")
+                    break;
                 Console.WriteLine(book);
             }
             #endregion
