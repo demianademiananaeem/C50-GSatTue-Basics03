@@ -62,10 +62,26 @@ namespace Assignmnet2
             #endregion
 
             #region Q9
-            int page = 464;
-            bool isAvailable = true;
-            if (page > 300&&isAvailable==true) Console.WriteLine("You can borrow this book");
-            else Console.WriteLine("Not Available!");
+            //int page = 464;
+            //bool isAvailable = true;
+            //if (page > 300&&isAvailable==true) Console.WriteLine("You can borrow this book");
+            //else Console.WriteLine("Not Available!");
+            #endregion
+
+            #region Q10
+            string title = "Refactoring";
+            switch (title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
             #endregion
 
 
