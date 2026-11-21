@@ -22,9 +22,17 @@ namespace Assignmnet2
             #endregion
 
             #region Q3
+            //StringBuilder text = new StringBuilder();
+            //text.Append("Book List ");
+            //text.Append("_Udated");
+            //Console.WriteLine(text.ToString());
+            #endregion
+
+            #region Q4
             StringBuilder text = new StringBuilder();
             text.Append("Book List ");
             text.Append("_Udated");
+            text.Replace("Book List ", "Libaray ");
             Console.WriteLine(text.ToString());
             #endregion
 
