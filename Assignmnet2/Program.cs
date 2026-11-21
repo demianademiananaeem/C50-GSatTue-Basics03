@@ -99,15 +99,22 @@ namespace Assignmnet2
             #endregion
 
             #region Q13
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int i = 0;
-            while ( i<books.Length) {
-                Console.WriteLine($"{books[i]}");
-                i++;
-            }
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int i = 0;
+            //while ( i<books.Length) {
+            //    Console.WriteLine($"{books[i]}");
+            //    i++;
+            //}
             #endregion
 
-
+            #region Q14
+            int i = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                i++;
+            } while (i<3);
+            #endregion
 
 
         }
