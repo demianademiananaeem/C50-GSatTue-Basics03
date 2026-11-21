@@ -135,16 +135,25 @@ namespace Assignmnet2
             #endregion
 
             #region Q17
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            foreach (string book in books)
-            {
-                if (book == "The Pragmatic Programmer")
-                    continue;
-                Console.WriteLine(book);
-            }
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //foreach (string book in books)
+            //{
+            //    if (book == "The Pragmatic Programmer")
+            //        continue;
+            //    Console.WriteLine(book);
+            //}
             #endregion
 
-
+            #region Q18
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            void PrintFirstBook(string[] books)
+            {
+                if (books.Length == 0) return;
+                Console.WriteLine(books[0]);
+            }
+            PrintFirstBook(books);
+            #endregion
         }
+         
     }
 }
