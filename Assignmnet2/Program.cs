@@ -108,12 +108,20 @@ namespace Assignmnet2
             #endregion
 
             #region Q14
-            int i = 0;
-            do
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    i++;
+            //} while (i<3);
+            #endregion
+
+            #region Q15
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books)
             {
-                Console.WriteLine("Checking book...");
-                i++;
-            } while (i<3);
+                Console.WriteLine(book);
+            }
             #endregion
 
 
