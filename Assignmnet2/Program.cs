@@ -29,11 +29,17 @@ namespace Assignmnet2
             #endregion
 
             #region Q4
-            StringBuilder text = new StringBuilder();
-            text.Append("Book List ");
-            text.Append("_Udated");
-            text.Replace("Book List ", "Libaray ");
-            Console.WriteLine(text.ToString());
+            //StringBuilder text = new StringBuilder();
+            //text.Append("Book List ");
+            //text.Append("_Udated");
+            //text.Replace("Book List ", "Libaray ");
+            //Console.WriteLine(text.ToString());
+            #endregion
+
+            #region Q5
+            string title = "Clean Code";
+            int page = 464;
+            Console.WriteLine("Book:"+title+" , Page:"+page);
             #endregion
 
 
